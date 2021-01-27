@@ -1,0 +1,31 @@
+.topbar {
+    background-color: #7adcf5;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.topbar .TopBarElement{
+    padding: 10px;
+    text-decoration: none;
+    color: #042733;
+    margin: 20px;
+    width: 10%;
+    text-align: center;
+    border-style: solid;
+    border-color: #26c0eb;
+}
+
+.topbar .TopBarElement.activeTopEl{
+    background-color: #ade2f0;
+}
+
+.topbar .TopBarElement.inactiveTopEl{
+    background-color: #6cd4f0;
+}
+
+.topbar .TopBarElement:hover{
+    background-color: #26c0eb;
+}

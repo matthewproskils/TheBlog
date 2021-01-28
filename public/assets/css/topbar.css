@@ -29,3 +29,15 @@
 .topbar .TopBarElement:hover{
     background-color: #26c0eb;
 }
+
+.bottomBar{
+    background: #82a3bf;
+    height: 20vh;
+    display: flexbox;
+    text-align: center;
+    align-items: center;
+}
+
+.bottomBar > * {
+    margin: 10px;
+}

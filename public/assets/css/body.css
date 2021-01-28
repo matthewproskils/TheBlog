@@ -1,0 +1,11 @@
+#description {
+    background-color: #26c0eb;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#description div {
+    width: 25vh;
+    margin: 1vh;
+    flex: 3;
+}

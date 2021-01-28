@@ -1,0 +1,1 @@
+{"version":3,"file":"bottombar.js","sourceRoot":"","sources":["../../../ts/Frontend/components/bottombar.tsx"],"names":[],"mappings":"AAAA,MAAM,SAAU,SAAQ,KAAK,CAAC,SAAS;IACnC,MAAM;QACF,OAAO,CACH,6BAAK,SAAS,EAAC,WAAW;YACtB,2FAA2D;YAC3D,2BAAG,IAAI,EAAC,eAAe,cAAY;YAAA,2BAAG,IAAI,EAAC,WAAW,uBAAqB;YAAA,2BAAG,IAAI,EAAC,sBAAsB,qBAAmB,CAC1H,CACT,CAAA;IACL,CAAC;CACJ;AAED,eAAe,SAAS,CAAC"}

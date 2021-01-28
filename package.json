@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "full": "sudo rm -rf build && tsc -jsx react && node build/index.js",
-    "start": "node src/index.js",
+    "start": "node build/index.js",
     "build": "tsc",
     "publish": "git add . && git commit -m \"Update\" && git branch -M master && git push -u origin master"
   },

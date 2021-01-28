@@ -1,12 +1,16 @@
 import express from "express";
 import path from "path";
+import init from "../Database/sqliteInit.js"
 
 const __dirname = path.resolve();
 
 import dotenv from "dotenv"; //Env Configuration
 dotenv.config();
 
-export default function (app: any) {
+import sql from "sqlite3";
+const sqlite = sql.verbose();
+
+export default function (app: express.Application, db: init) {
     app.use(express.static(__dirname));
 
     app.get('/', (req: express.Request, res: express.Response) => {

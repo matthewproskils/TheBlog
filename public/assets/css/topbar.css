@@ -11,11 +11,11 @@
     padding: 10px;
     text-decoration: none;
     color: #042733;
-    margin: 20px;
-    width: 10%;
+    width: 10em;
     text-align: center;
     border-style: solid;
     border-color: #26c0eb;
+    font-size: 3vh;
 }
 
 .topbar .TopBarElement.activeTopEl{
@@ -36,7 +36,7 @@
     display: flexbox;
     text-align: center;
     align-items: center;
-} 
+}
 
 .bottomBar > * {
     margin: 10px;

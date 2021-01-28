@@ -10,6 +10,9 @@ export default function (app, db) {
     app.get('/', (req, res) => {
         res.sendFile(__dirname + "/public/html/index.html");
     });
+    app.get('/auth', (req, res) => {
+        res.sendFile(__dirname + "/public/html/auth.html");
+    });
     app.listen(process.env.PORT, () => {
         console.log(`Running on http://localhost:${process.env.PORT}`);
     });

@@ -6,23 +6,40 @@ class IndexBody extends React.Component {
 
                 <div id="description">
                     <div>
-                        <h1>Our Mission</h1>
-                        <p>Our goal is to <em>entertain</em> while <em>educate</em> at the same time.</p>
+                        <div>
+                            <img src="https://l.hdnux.com/350x235p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/ac12375ee8ff4ffdaa6cb175ffb23922.jpg"></img>
+                        </div>
+                        <div>
+                            <h1>Our Mission</h1>
+                            <p>Our goal is to <em>entertain</em> while <em>educating</em> at the same time by providing you with everything you need to educated and entertain others.</p>
+                        </div>
                     </div>
-
                     <div>
-                        <h1>Lorem Ipsum</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div>
+                            <h1>Our Mission</h1>
+                            <p>Our goal is to <em>entertain</em> while <em>educating</em> at the same time by providing you with everything you need to educated and entertain others.</p>
+                        </div>
+                        <div>
+                            <img src="https://l.hdnux.com/350x235p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/ac12375ee8ff4ffdaa6cb175ffb23922.jpg"></img>
+                        </div>
                     </div>
-
                     <div>
-                        <h1>Lorem Ipsum</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div>
+                            <img src="https://l.hdnux.com/350x235p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/ac12375ee8ff4ffdaa6cb175ffb23922.jpg"></img>
+                        </div>
+                        <div>
+                            <h1>Our Mission</h1>
+                            <p>Our goal is to <em>entertain</em> while <em>educating</em> at the same time by providing you with everything you need to educated and entertain others.</p>
+                        </div>
                     </div>
-
                     <div>
-                        <h1>Lorem Ipsum</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div>
+                            <h1>Our Mission</h1>
+                            <p>Our goal is to <em>entertain</em> while <em>educating</em> at the same time by providing you with everything you need to educated and entertain others.</p>
+                        </div>
+                        <div>
+                            <img src="https://l.hdnux.com/350x235p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/ac12375ee8ff4ffdaa6cb175ffb23922.jpg"></img>
+                        </div>
                     </div>
                 </div>
             </main>

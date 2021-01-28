@@ -36,8 +36,8 @@
     display: flexbox;
     text-align: center;
     align-items: center;
-}
+} 
 
 .bottomBar > * {
     margin: 10px;
-} 
+}

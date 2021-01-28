@@ -6,7 +6,8 @@
   "scripts": {
     "full": "sudo rm -rf build && tsc -jsx react && node build/index.js",
     "start": "node src/index.js",
-    "build": "tsc"
+    "build": "tsc",
+    "publish": "git add ."
   },
   "author": {
     "name": "Matthew",

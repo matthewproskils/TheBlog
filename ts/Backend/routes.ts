@@ -10,6 +10,7 @@ import dotenv from "dotenv"; //Env Configuration
 dotenv.config();
 
 import sql from "sqlite3";
+import { resolveContent } from "nodemailer/lib/shared";
 const sqlite = sql.verbose();
 
 export default function (app: express.Application, db: init) {
@@ -26,10 +27,14 @@ export default function (app: express.Application, db: init) {
         res.sendFile(__dirname + "/public/html/auth.html")
     })
 
-    app.post('/api/tokenauth', (req: express.Request, res: express.Response) => {
-        let userdata = auth(req.body.data);
-        console.log(userdata)
-        return res.end(userdata);
+    app.post('/api/tokenauth', async (req: express.Request, res: express.Response) => {
+        await auth(req.body.data).then(response => {
+            Promise.resolve(response).then((val) => {
+                res.end(JSON.stringify(val))
+            })
+        }).catch(err => {
+            throw err;
+        });
     })
 
     app.listen(process.env.PORT, () => {

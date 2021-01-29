@@ -17,10 +17,14 @@ export default function (app, db) {
     app.get('/auth', (req, res) => {
         res.sendFile(__dirname + "/public/html/auth.html");
     });
-    app.post('/api/tokenauth', (req, res) => {
-        let userdata = auth(req.body.data);
-        console.log(userdata);
-        return res.end(userdata);
+    app.post('/api/tokenauth', async (req, res) => {
+        await auth(req.body.data).then(response => {
+            Promise.resolve(response).then((val) => {
+                res.end(JSON.stringify(val));
+            });
+        }).catch(err => {
+            throw err;
+        });
     });
     app.listen(process.env.PORT, () => {
         console.log(`Running on http://localhost:${process.env.PORT}`);

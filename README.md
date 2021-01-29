@@ -1,3 +1,9 @@
 # TheBlog
 
-e 
+## fueling creativity
+
+## Stack
+* React
+* Express
+* NodeJS
+* TypeScript

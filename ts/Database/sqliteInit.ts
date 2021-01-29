@@ -4,6 +4,13 @@ const sqlite3 = sql.verbose();
 class init {
     db: sql.Database;
     constructor() {
+        const db = new sqlite3.Database('database.db');
+        db.exec(`CREATE TABLE blogs IF NOT EXISTS(
+            title TEXT
+            description TEXT
+            content TEXT
+        )`);
+
         this.db = new sqlite3.Database('database.db');        
     }
 }

@@ -1,1 +1,1 @@
-{"version":3,"file":"sqliteInit.js","sourceRoot":"","sources":["../../ts/Database/sqliteInit.ts"],"names":[],"mappings":"AAAA,OAAO,GAAG,MAAM,SAAS,CAAC;AAC1B,MAAM,OAAO,GAAG,GAAG,CAAC,OAAO,EAAE,CAAC;AAE9B,SAAS,IAAI;AAEb,CAAC;AAED,eAAe,IAAI,CAAC"}
+{"version":3,"file":"sqliteInit.js","sourceRoot":"","sources":["../../ts/Database/sqliteInit.ts"],"names":[],"mappings":"AAAA,OAAO,GAAG,MAAM,SAAS,CAAC;AAC1B,MAAM,OAAO,GAAG,GAAG,CAAC,OAAO,EAAE,CAAC;AAE9B,MAAM,IAAI;IAEN;QACI,IAAI,CAAC,EAAE,GAAG,IAAI,OAAO,CAAC,QAAQ,CAAC,aAAa,CAAC,CAAC;IAClD,CAAC;CACJ;AAED,eAAe,IAAI,CAAC"}

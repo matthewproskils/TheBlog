@@ -1,0 +1,11 @@
+.GauthContainer{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.GauthButton {
+    transform: scale(5);
+}

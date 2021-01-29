@@ -1,12 +1,32 @@
 @import url("/public/assets/css/topbar.css");
+@import url("/public/assets/css/body.css");
+@import url("/public/assets/css/gauth.css");
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
+html{
+    height: 100%;
+    background-color: #ade2f0;
+}
+
 body{
+    height: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 *{
     font-family: 'Yusei Magic', sans-serif;
 }
 
+main {
+    text-align: center;
+}
+
+#MAIN_APP{
+    height: 100%;
+}
+
+#MAIN_APP > div{
+    height: 100%;
+}

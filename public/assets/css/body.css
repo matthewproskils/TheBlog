@@ -1,0 +1,25 @@
+#description {
+    background-color: #26c0eb;
+    height: 80vw;
+}
+
+#description > div {
+    width: 100%;
+    padding: 1vh;
+    flex: 3;
+    height: 40vh;
+    display: flex;
+}
+
+#description > div > div{
+    margin-top: 30px;
+    width: 50%;
+    padding: 1vh;
+    flex: 3;
+    height: 40vh;
+    display: inline;
+}
+
+main > h1 {
+    height: 100px;
+}

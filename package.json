@@ -7,7 +7,7 @@
     "full": "sudo rm -rf build && tsc -jsx react && node build/index.js",
     "start": "node build/index.js",
     "build": "tsc",
-    "publish": "git add . && git commit -m \"Update\" && git branch -M master && git push -u origin master"
+    "publish": "git add . && git commit -m \"[Insert Bad Git Commit Message]\" && git branch -M master && git push -u origin master"
   },
   "author": {
     "name": "Matthew",

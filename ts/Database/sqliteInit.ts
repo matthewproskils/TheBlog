@@ -5,7 +5,7 @@ class init {
     db: sql.Database;
     constructor() {
         const db = new sqlite3.Database('database.db');
-        db.exec(`CREATE TABLE blogs IF NOT EXISTS(
+        db.exec(`CREATE TABLE IF NOT EXISTS blogs (
             title TEXT
             description TEXT
             content TEXT
@@ -13,6 +13,7 @@ class init {
 
         this.db = new sqlite3.Database('database.db');        
     }
+
 }
  
 export default init;

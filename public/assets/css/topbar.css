@@ -1,5 +1,5 @@
 .topbar {
-    background-color: #7adcf5;
+    background-color: var(--bg-primary);
     height: 10vh;
     display: flex;
     align-items: center;
@@ -10,28 +10,21 @@
 .topbar .TopBarElement{
     padding: 10px;
     text-decoration: none;
-    color: #042733;
     width: 10em;
     text-align: center;
     border-style: solid;
-    border-color: #26c0eb;
+    border-color: var(--brown4);
+    color: var(--brown2);
     font-size: 3vh;
 }
 
-.topbar .TopBarElement.activeTopEl{
-    background-color: #ade2f0;
-}
-
-.topbar .TopBarElement.inactiveTopEl{
-    background-color: #6cd4f0;
-}
-
 .topbar .TopBarElement:hover{
-    background-color: #26c0eb;
+    background-color: var(--brown4);
 }
 
 .bottomBar{
-    background: #82a3bf;
+    color: var(--accent-color);
+    background: var(--bg-primary);
     height: 20vh;
     display: flexbox;
     text-align: center;

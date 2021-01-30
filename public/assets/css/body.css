@@ -1,5 +1,5 @@
 #description {
-    background-color: #26c0eb;
+    background-color: var(--bg-secondary);
     height: 80vw;
 }
 

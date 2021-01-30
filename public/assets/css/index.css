@@ -1,11 +1,26 @@
 @import url("/public/assets/css/topbar.css");
 @import url("/public/assets/css/body.css");
 @import url("/public/assets/css/gauth.css");
-@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --brown1: #ede0d4;
+    --brown2: #e6ccb2;
+    --brown3: #ddb892;
+    --brown4: #b08968;
+    --brown5: #7f5539;
+    --brown6: #9c6644;
+
+    --bg-primary: var(--brown5);
+    --bg-secondary: var(--brown2);
+
+    --accent-color: var(--brown3);
+}
 
 html{
+    color: var(--brown5);
     height: 100%;
-    background-color: #ade2f0;
+    background-color: var(--brown1);
 }
 
 body{
@@ -16,7 +31,11 @@ body{
 }
 
 *{
-    font-family: 'Yusei Magic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: var(--accent-color);
 }
 
 main {

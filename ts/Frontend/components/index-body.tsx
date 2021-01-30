@@ -2,7 +2,8 @@ class IndexBody extends React.Component {
     render() {
         return (
             <main>
-                <h1>TheBlog ☕ </h1>
+                <h1 id="title">TheBlog ☕ </h1>
+                <h2>fueling creativity</h2>
 
                 <div id="description">
                     <div>

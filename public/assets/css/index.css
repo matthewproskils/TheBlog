@@ -17,6 +17,10 @@
     --accent-color: var(--brown3);
 }
 
+#title {
+    font-size: 10vh;
+}
+
 html{
     color: var(--brown5);
     height: 100%;

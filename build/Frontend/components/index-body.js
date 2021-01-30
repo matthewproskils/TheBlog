@@ -1,7 +1,8 @@
 class IndexBody extends React.Component {
     render() {
         return (React.createElement("main", null,
-            React.createElement("h1", null, "TheBlog \u2615 "),
+            React.createElement("h1", { id: "title" }, "TheBlog \u2615 "),
+            React.createElement("h2", null, "fueling creativity"),
             React.createElement("div", { id: "description" },
                 React.createElement("div", null,
                     React.createElement("div", null,

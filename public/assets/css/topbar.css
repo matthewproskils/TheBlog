@@ -29,6 +29,7 @@
     display: flexbox;
     text-align: center;
     align-items: center;
+    height: 20%;
 }
 
 .bottomBar > * {

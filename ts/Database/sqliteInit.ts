@@ -9,8 +9,10 @@ class init {
             title TEXT
             description TEXT
             content TEXT
+            comments TEXT
+            info TEXT
         )`);
-
+        
         this.db = new sqlite3.Database('database.db');        
     }
 

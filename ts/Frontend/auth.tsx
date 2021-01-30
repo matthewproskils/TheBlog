@@ -19,7 +19,8 @@ ReactDOM.render(
         </div>
         <div id="OnauthContainer" style={{ display: "none", textAlign: "center", height: "70%", lineHeight: "70%" }}>
             <br /><br /><br /><br /><br />
-            <h1>Welcome!</h1><br /><br /><br /><br /><br />
+            <h1>Welcome!</h1>
+            <br /><br /><br /><br /><br />
             <p>Get started by viewing your <a href="/dashboard">dashboard</a> or reading <a href="/">About Us</a></p>
         </div>
         <BottomBar />

@@ -10,8 +10,25 @@ function Gauth() {
 }
 ReactDOM.render(React.createElement("div", null,
     React.createElement(Topbar, { ArrayIndex: 2 }),
-    React.createElement("div", { className: "GauthContainer" },
+    React.createElement("div", { id: "GauthContainer", className: "GauthContainer" },
         React.createElement(Gauth, null)),
+    React.createElement("div", { id: "OnauthContainer", style: { display: "none", textAlign: "center", height: "70%", lineHeight: "70%" } },
+        React.createElement("br", null),
+        React.createElement("br", null),
+        React.createElement("br", null),
+        React.createElement("br", null),
+        React.createElement("br", null),
+        React.createElement("h1", null, "Welcome!"),
+        React.createElement("br", null),
+        React.createElement("br", null),
+        React.createElement("br", null),
+        React.createElement("br", null),
+        React.createElement("br", null),
+        React.createElement("p", null,
+            "Get started by viewing your ",
+            React.createElement("a", { href: "/dashboard" }, "dashboard"),
+            " or reading ",
+            React.createElement("a", { href: "/" }, "About Us"))),
     React.createElement(BottomBar, null)), document.getElementById('MAIN_APP'));
 let script = document.createElement('script');
 script.src = "https://apis.google.com/js/platform.js";

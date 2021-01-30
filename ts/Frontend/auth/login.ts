@@ -4,8 +4,9 @@ function onSignIn(googleUser: any) {
     let xhr = new XMLHttpRequest();
     xhr.open('POST', window.location.origin + '/api/tokenauth');
     xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
-    xhr.onload = function() {
-        console.log('Signed in as: ' + xhr.responseText);
+    xhr.onload = function () {
+        document.getElementById("OnauthContainer").style.display = "block";
+        document.getElementById("GauthContainer").style.display = "none";
     };
     xhr.send(JSON.stringify({ data: id_token }));
 }

@@ -5,7 +5,8 @@ function onSignIn(googleUser) {
     xhr.open('POST', window.location.origin + '/api/tokenauth');
     xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
     xhr.onload = function () {
-        console.log('Signed in as: ' + xhr.responseText);
+        document.getElementById("OnauthContainer").style.display = "block";
+        document.getElementById("GauthContainer").style.display = "none";
     };
     xhr.send(JSON.stringify({ data: id_token }));
 }

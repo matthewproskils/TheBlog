@@ -25,7 +25,7 @@
 .bottomBar{
     color: var(--accent-color);
     background: var(--bg-primary);
-    height: 20vh;
+    padding: 5vh;
     display: flexbox;
     text-align: center;
     align-items: center;

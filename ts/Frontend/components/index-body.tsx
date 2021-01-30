@@ -3,7 +3,7 @@ class IndexBody extends React.Component {
         return (
             <main>
                 <h1 id="title">TheBlog ☕ </h1>
-                <h2>fueling creativity</h2>
+                <h2>We. Fuel. Creativity.</h2>
 
                 <div id="description">
                     <div>

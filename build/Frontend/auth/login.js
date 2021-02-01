@@ -5,8 +5,15 @@ function onSignIn(googleUser) {
     xhr.open('POST', window.location.origin + '/api/tokenauth');
     xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
     xhr.onload = function () {
-        document.getElementById("OnauthContainer").style.display = "block";
-        document.getElementById("GauthContainer").style.display = "none";
+        if (xhr.responseText == "ERROR") {
+            alert("Error, please reload the page");
+        }
+        else {
+            document.getElementById("OnauthContainer").style.display = "block";
+            document.getElementById("GauthContainer").style.display = "none";
+            window.localStorage.setItem("Token", xhr.responseText);
+            window.localStorage.setItem("Id", id_token);
+        }
     };
     xhr.send(JSON.stringify({ data: id_token }));
 }
